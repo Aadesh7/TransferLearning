@@ -23,7 +23,8 @@ model = Sequential([
     Dense(128, activation='relu'),
     Dropout(0.5),
     Dense(4, activation='softmax')
-])```
+])
+```
 
 The resulting model weights are saved in animal_model.keras.
 
