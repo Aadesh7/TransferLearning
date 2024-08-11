@@ -30,8 +30,8 @@ model = Sequential([
 
 The resulting model weights are saved in animal_model.keras.
 
-### `**RFfromFeatureExtract**`
+### `RFfromFeatureExtract`
 This script uses the convolutional layers up to the flatten layer from the CNN as a custom feature extractor. The extracted features are then used with a Random Forest model for classification.
 
-### `**RFafterCNN**`
+### `RFafterCNN`
 This script utilizes the CNN model saved in animal_model.keras to extract features up to the flatten layer and then applies Random Forest for image classification.
